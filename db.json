@@ -1,9 +1,25 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "todos": [
+    {
+      "id": 1,
+      "username": "one",
+      "title": "title1",
+      "content": "content1",
+      "isSuccess": true
+    },
+    {
+      "id": 2,
+      "username": "two",
+      "title": "title2",
+      "content": "2",
+      "isSuccess": true
+    },
+    {
+      "username": "three",
+      "title": "title3",
+      "content": "content3",
+      "isSuccess": true,
+      "id": 3
+    }
+  ]
 }
